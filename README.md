@@ -38,14 +38,14 @@ java.nio.file.Path;
 
 ## PART 3 - Code Scanning and Interpretation
 * Look at the getHiddenSecrets method and identify the following parts:
-    * What is the access modifer (public, private, protected)?
-    * Is it a Class method or an object Instance method, how do you know?
-    * What is its return data-type?
-    * Does it require any parameters, and if so, how many and of what type?
+    * What is the access modifer (public, private, protected)?public 
+    * Is it a Class method or an object Instance method, how do you know? Class , it is static method
+    * What is its return data-type?void
+    * Does it require any parameters, and if so, how many and of what type? 2 file,file
 * Scan line by line through the code and try to determine how it works?
-    * What is familiar to you?
-    * What is not familiar to you?
-    * Do the **for** loops make sense, and if so, tell me what you think they do?
+    * What is familiar to you?reading the data from the image , public static void 
+    * What is not familiar to you? have a jar file but could not get it in properly or saved properly , if  for, statements not sure if i did screenshot right at first it kept optimizing my imports 
+    * Do the **for** loops make sense, and if so, tell me what you think they do?Help to create notice of errors ahead of time ?they seem to help to prevent future errors as it seems there is some odd imports 
 
 ## PART 4 - Turn in
 ### Same as the last 2 Weeks!
